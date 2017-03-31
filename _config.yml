@@ -1,11 +1,9 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: Daniel Xie
+subtitle: 生命在祂里头，这生命就是人的光
+description: 
 
-url: "http://vno.onevcat.com"
+url: "http://danielxie.top"
 
 permalink: /:year/:month/:title/
 
@@ -13,17 +11,17 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: slate
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: 博客
+    description: Daniel Xie's Blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: 作品, description: 个人作品, url: 'http://blog.danielxie.xyz/me/works'}
+    # - {title: 关于, description: 自我介绍, url: 'http://me.danielxie.xyz'}
 
 # Pagination
 gems: [jekyll-paginate]
@@ -32,16 +30,14 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: 
     # duoshuo: 
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: xieshangxu
+    github: xieshangxu
+    mail: daniel.x1005@gmail.com
 
 # Google Analytics
 ga:
