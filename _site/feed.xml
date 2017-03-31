@@ -2,12 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Xie</title>
-    <description></description>
+    <description>大名谢尚旭，一名前端攻城狮，喜欢折腾</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Mar 2017 17:13:06 +0800</pubDate>
-    <lastBuildDate>Fri, 31 Mar 2017 17:13:06 +0800</lastBuildDate>
+    <pubDate>Fri, 31 Mar 2017 18:36:43 +0800</pubDate>
+    <lastBuildDate>Fri, 31 Mar 2017 18:36:43 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>只需半小时！使用Github Pages和Jekyll搭建专属的炫酷博客</title>
+        <description>&lt;h3 id=&quot;初衷&quot;&gt;初衷&lt;/h3&gt;
+
+&lt;p&gt;今天心血来潮，想要体验如何简单搭建博客的过程。
+其实现在可以写博客的地方实在太多了，&lt;a href=&quot;https://wordpress.com&quot; target=&quot;_blank&quot;&gt;WordPress&lt;/a&gt;、&lt;a href=&quot;http://www.jianshu.com&quot; target=&quot;_blank&quot;&gt;简书&lt;/a&gt;、&lt;a href=&quot;https://www.juejin.im&quot; target=&quot;_blank&quot;&gt;掘金(技术类)&lt;/a&gt;等等。。但是在第三方平台上写博客总感觉缺乏点仪式感，于是想稍微花点时间为自己量身打造一个。&lt;/p&gt;
+
+&lt;h3 id=&quot;调查&quot;&gt;调查&lt;/h3&gt;
+
+&lt;p&gt;对于技术人员来说，很多人都有自己的个人网站。上网稍微调查了一番，发现很多人在讲Github Pages + Jekyll。我想：git大法好啊！接下来就是入坑过程。&lt;/p&gt;
+
+&lt;h3 id=&quot;干货&quot;&gt;干货&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;因为本人使用Mac，所以接下来的教程以Mac为例子.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一、 #### 首先创建一个属于自己的Github Page&lt;/p&gt;
+
+&lt;p&gt;不知道怎么弄的同学可以参考&lt;a href=&quot;http://www.jianshu.com/p/6d8978c380e7&quot; target=&quot;_blank&quot;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;神马？你没有github账号？？你确定你是个搞技术的？？？&lt;/p&gt;
+
+&lt;p&gt;二、 #### 进入git项目的目录中&lt;/p&gt;
+
+&lt;p&gt;三、 #### 安装Jekyll&lt;/p&gt;
+
+&lt;p&gt;因为最新的Jekyll都要求Ruby的版本在2.1以上（否则安装过程中会出错），所以建议安装或者更新到较新版本的Ruby。这里可以使用以下命令：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;curl -sSL https://get.rvm.io | bash -s stable --ruby&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;然后根据提示&lt;strong&gt;执行对应的source命令&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;再然后执行：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;rvm install 2.2
+rvm use 2.2 --default&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ruby安装完毕，接下来就是我们的主角Jekyll登场啦！&lt;/p&gt;
+
+&lt;p&gt;安装Jekyll和bundle:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;gem install jekyll bundle&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;到这里如果没有出错，你离成功不远了。&lt;/p&gt;
+
+&lt;p&gt;四、 #### 下载Jekyll主题&lt;/p&gt;
+
+&lt;p&gt;我想大多数人是不想自己从头开始写样式的（至少我是这样的[:捂脸])，于是主题这个东西就显得很有用了。我在网上被安利了一个主题，个人也觉得不错，那就顺道再安利吧。&lt;a href=&quot;https://github.com/onevcat/vno-jekyll&quot;&gt;主题地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;你可以git clone或者直接下载下来，将其中的所有文件都拷贝到当前目录下。&lt;/p&gt;
+
+&lt;p&gt;五、 #### 安装主题以及预览&lt;/p&gt;
+
+&lt;p&gt;怀着忐忑的心执行：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;bundle install&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;如果执行成功，那说明你已经接近成功了！&lt;/p&gt;
+
+&lt;p&gt;怀着期待的心执行：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;jekyll serve&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;如果不出意外，那么你现在就可以访问&lt;a href=&quot;http://localhost:4000&quot;&gt;预览&lt;/a&gt;了！&lt;/p&gt;
+
+&lt;p&gt;六、 #### 上传代码&lt;/p&gt;
+
+&lt;p&gt;接下来你只需要把所有的代码上传到git就行了，就是这么简单。&lt;/p&gt;
+
+&lt;p&gt;七、 #### 绑定域名&lt;/p&gt;
+
+&lt;p&gt;如果你还想绑定域名，也很简单。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;比如你的域名是dashuaige.com&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那么只需要在项目中加一个名为CNAME的文件，写入&lt;code class=&quot;highlighter-rouge&quot;&gt;dashuaige.com&lt;/code&gt;就可。&lt;/p&gt;
+
+&lt;p&gt;另外给你的域名加一个CNAME记录，填写&lt;strong&gt;XXX.github.io.&lt;/strong&gt;（XXX就是你自己的github名字）。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;这里末尾一定要加一个.!!!&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 31 Mar 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/03/githubpages/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/githubpages/</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>
